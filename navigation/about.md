@@ -4,4 +4,12 @@ title: About
 permalink: /about/
 ---
 
-<img src= "220px-Felipe_Massa_2009_Turkey.jpg">
+<html>
+  <head>
+    <title>F1 Racing</title>
+  </head>
+
+  <body>
+    <img src="220px-Felipe_Massa_2009_Turkey.jpg">
+  </body>
+</html>
