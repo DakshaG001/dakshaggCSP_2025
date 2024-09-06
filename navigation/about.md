@@ -1,14 +1,11 @@
 ---
 layout: page
-title: About
+title: About 
 permalink: /about/
 ---
 
-<!DOCTYPE html>
-<html>
-<body>
+# **Who Am I?**
+My name is Daksha Gowda. I Just turned 16 as of writing this. I am a Junior at DNHS.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Felipe_Massa_2009_Turkey.jpg/220px-Felipe_Massa_2009_Turkey.jpg" width="500" height="600">
-
-</body>
-</html>
+# **Why did I choose this course?** 
+I chose this because I had no choice :(
