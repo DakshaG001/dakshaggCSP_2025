@@ -33,10 +33,11 @@ p {
 
 <div> 
         <ul>
-            <li>I'm Daksha Gowda.Pic of my dog on the right -></li> 
+            <li>I'm Daksha Gowda.</li> 
          </ul>
-         
-        <img src="../images/notebooks/Screenshot 2024-08-07 150835.png" alt="Image" width="25%" style="float: right; margin-right: 200px; margin-top: -100px">
+         <img src="../images/notebooks/Screenshot 2024-08-07 150835.png" alt="Image" width="25%" style="float: right; margin-right: 200px; margin-top: -25px">
+         <p style="font-size: 16px;">Pic of my dog on the right -></p>
+        
 </div>
 
 
