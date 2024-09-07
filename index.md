@@ -9,8 +9,6 @@ hide: true
 
 <img src="images/notebooks/3810370_8caf5a9703664533b3b1cf2b4e040537_processed.jpg" alt="Image" width="25%">
 
-Welcome to the project! Below you can navigate to different sections:
-
 <style>
 .custom-button {
   min-width: 120px;
