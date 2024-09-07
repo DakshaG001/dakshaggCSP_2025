@@ -12,6 +12,36 @@ hide: true
 Welcome to the project! Below you can navigate to different sections:
 
 <style>
+  .fancy-button {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF5722; /* Bright orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Smooth transition for hover/click effects */
+  }
+  .fancy-button:hover {
+    background-color: #FFC107; /* Bright yellow on hover */
+  }
+  .fancy-button:active {
+    background-color: #FFEB3B; /* Even lighter yellow when clicked */
+    transform: scale(0.95); /* Shrink effect on click */
+  }
+</style>
+<a href="https://nighthawkcoders.github.io/portfolio_2025/">
+  <button class="fancy-button">Nighthawk Pages</button>
+</a>
+<a href="http://127.0.0.1:4100/dakshaggCSP_2025/blogs/">
+  <button class="fancy-button">Blogs</button>
+</a>
+<a href="http://127.0.0.1:4100/dakshaggCSP_2025/search/">
+  <button class="fancy-button">Search</button>
+</a>
+
+<style>
     .paste-button {
         position: relative;
         display: block;
@@ -84,6 +114,7 @@ Welcome to the project! Below you can navigate to different sections:
         display: block;
     }
 </style>
+
 
 
 <div class="paste-button">
