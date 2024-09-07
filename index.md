@@ -12,111 +12,178 @@ hide: true
 Welcome to the project! Below you can navigate to different sections:
 
 <style>
-  .fancy-button {
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #FF5722; /* Bright orange */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Smooth transition for hover/click effects */
-  }
-  .fancy-button:hover {
-    background-color: #FFC107; /* Bright yellow on hover */
-  }
-  .fancy-button:active {
-    background-color: #FFEB3B; /* Even lighter yellow when clicked */
-    transform: scale(0.95); /* Shrink effect on click */
-  }
+.custom-button {
+  min-width: 120px;
+
+  position: relative;
+  cursor: pointer;
+
+  padding: 12px 17px;
+  border: 0;
+  border-radius: 7px;
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  background: radial-gradient(
+    ellipse at bottom,
+    rgba(71, 81, 92, 1) 0%,
+    rgba(11, 21, 30, 1) 45%
+  );
+
+  color: rgba(255, 255, 255, 0.66);
+
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.custom-button::before {
+  content: "";
+  width: 70%;
+  height: 1px;
+
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.2;
+
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.custom-button:hover {
+  color: rgba(255, 255, 255, 1);
+  transform: scale(1.1) translateY(-3px);
+}
+.custom-button:hover::before {
+  opacity: 1;
+}
 </style>
+<!-- coding for 3 buttons -->
 <a href="https://nighthawkcoders.github.io/portfolio_2025/">
-  <button class="fancy-button">Nighthawk Pages</button>
+  <button class="custom-button">Nighthawk Pages</button>
 </a>
 <a href="http://127.0.0.1:4100/dakshaggCSP_2025/blogs/">
-  <button class="fancy-button">Blogs</button>
+  <button class="custom-button">Blogs</button>
 </a>
 <a href="http://127.0.0.1:4100/dakshaggCSP_2025/search/">
-  <button class="fancy-button">Search</button>
+  <button class="custom-button">Search</button>
 </a>
+<!-- styling for menu -->
+
+
+
+
 
 <style>
-    .paste-button {
-        position: relative;
-        display: block;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .button {
-        background-color: #88bc4c;
-        color: #212121;
-        padding: 10px 15px;
-        font-size: 15px;
-        font-weight: bold;
-        border: 2px solid transparent;
-        border-radius: 15px;
-        cursor: pointer;
-    }
-    .dropdown-content, .submenu-content {
-        display: none;
-        font-size: 13px;
-        position: absolute;
-        z-index: 1;
-        min-width: 200px;
-        background-color: #212121;
-        border: 2px solid #88bc4c;
-        border-radius: 0px 15px 15px 15px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-    .dropdown-content a, .submenu-content a {
-        color: #88bc4c;
-        padding: 8px 10px;
-        text-decoration: none;
-        display: block;
-        transition: 0.1s;
-    }
-    .dropdown-content a:hover, .submenu-content a:hover {
-        background-color: #88bc4c;
-        color: #212121;
-    }
-    .dropdown-content a:focus, .submenu-content a:focus {
-        background-color: #212121;
-        color: #88bc4c;
-    }
-    .dropdown-content #top:hover {
-        border-radius: 0px 13px 0px 0px;
-    }
-    .dropdown-content #bottom:hover {
-        border-radius: 0px 0px 13px 13px;
-    }
-    .paste-button:hover button {
-        border-radius: 15px 15px 0px 0px;
-    }
-    .paste-button:hover .dropdown-content {
-        display: block;
-    }
-    /* Submenu styles */
-    .submenu {
-        position: relative;
-    }
-    .submenu-content {
-        top: 0;
-        left: 100%;
-        border-radius: 0 15px 15px 15px;
-    }
-    .submenu-content a:first-child:hover {
-        border-radius: 0px 13px 0px 0px;
-    }
-    .submenu-content a:last-child:hover {
-        border-radius: 0px 0px 13px 13px;
-    }
-    .submenu:hover .submenu-content {
-        display: block;
-    }
+   .paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paste-button .button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paste-button .button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.paste-button .button:active {
+    transform: translateY(-1px);
+}
+
+.dropdown-content, .submenu-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #212121;
+    border: 2px solid #88bc4c;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a, .submenu-content a {
+    color: #88bc4c;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+}
+
+.dropdown-content a:hover, .submenu-content a:hover {
+    background-color: #88bc4c;
+    color: #212121;
+}
+
+.dropdown-content a:focus, .submenu-content a:focus {
+    background-color: #212121;
+    color: #88bc4c;
+}
+
+.dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover .button {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+    display: block;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu-content {
+    top: 0;
+    left: 100%;
+    border-radius: 0 15px 15px 15px;
+}
+
+.submenu-content a:first-child:hover {
+    border-radius: 0px 13px 0px 0px;
+}
+
+.submenu-content a:last-child:hover {
+    border-radius: 0px 0px 13px 13px;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
 </style>
-
-
-
+<!-- code for menu -->
 <div class="paste-button">
   <button class="button">Menu &nbsp; ▼</button>
   <div class="dropdown-content">
@@ -131,4 +198,5 @@ Welcome to the project! Below you can navigate to different sections:
     <a id="bottom" href="http://127.0.0.1:4100/dakshaggCSP_2025/about/">About Pages</a>
   </div>
 </div>
+<!-- end of menu code -->
 
