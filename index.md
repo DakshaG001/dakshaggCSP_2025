@@ -189,7 +189,7 @@ hide: true
     <div class="submenu">
         <a id="middle" href="https://dakshag001.github.io/dakshaggCSP_2025/2024/08/21/sprint1_plan_IPYNB_2_.html">Plans &nbsp; ▶</a>
         <div class="submenu-content">
-            <a href="https://example.com/">Attempts</a>
+            <a href="http://127.0.0.1:4100/dakshaggCSP_2025/2024/09/12/PlanningFolder_IPYNB_2_.html">Attempts</a>
             <a href="https://example.com/">Finalized Project stuff</a>
         </div>
     </div>
