@@ -69,6 +69,10 @@ hide: true
 <a href="https://dakshag001.github.io/dakshaggCSP_2025/search/">
   <button class="custom-button">Search</button>
 </a>
+<a href="http://localhost:4100/dakshaggCSP_2025/snake/">
+  <button class="custom-button">Snake</button>
+  </a>
+
 <!-- styling for menu -->
 
 
