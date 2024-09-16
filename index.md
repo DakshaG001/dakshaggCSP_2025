@@ -63,10 +63,10 @@ hide: true
 <a href="https://nighthawkcoders.github.io/portfolio_2025/">
   <button class="custom-button">Nighthawk Pages</button>
 </a>
-<a href="http://127.0.0.1:4100/dakshaggCSP_2025/blogs/">
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/blogs/">
   <button class="custom-button">Blogs</button>
 </a>
-<a href="http://127.0.0.1:4100/dakshaggCSP_2025/search/">
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/search/">
   <button class="custom-button">Search</button>
 </a>
 <!-- styling for menu -->
@@ -189,11 +189,11 @@ hide: true
     <div class="submenu">
         <a id="middle" href="https://dakshag001.github.io/dakshaggCSP_2025/2024/08/21/sprint1_plan_IPYNB_2_.html">Plans &nbsp; ▶</a>
         <div class="submenu-content">
-            <a href="https://dakshag001.github.io/dakshaggCSP_2025/blogs/">Attempts</a>
+            <a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/09/12/PlanningFolder_IPYNB_2_.html">Attempts</a>
             <a href="https://example.com/">Finalized Project stuff</a>
         </div>
     </div>
-    <a id="bottom" href="http://127.0.0.1:4100/dakshaggCSP_2025/about/">About Pages</a>
+    <a id="bottom" href="https://dakshag001.github.io/dakshaggCSP_2025/about/">About Pages</a>
   </div>
 </div>
 <!-- end of menu code -->
