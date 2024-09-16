@@ -60,7 +60,7 @@ hide: true
 }
 </style>
 <!-- coding for 3 buttons -->
-<a href="https://nighthawkcoders.github.io/portfolio_2025/">
+<a href="https://nighthawkcoders.github.io/portfolio_2025/navigation/section/csp">
   <button class="custom-button">Nighthawk Pages</button>
 </a>
 <a href="https://dakshag001.github.io/dakshaggCSP_2025/blogs/">
