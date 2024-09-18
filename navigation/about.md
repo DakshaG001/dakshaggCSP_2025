@@ -157,7 +157,7 @@ p {
 
 <div>
     
-    <p style="font-size: 40px;">SIUUUUUUUUUUUUUUUUUUUUUU</p>
+    <p style="font-size: 40px;">SIUUUUUUUUUUUUUUUUUUUUU</p>
    <img src="../images/notebooks/raf,360x360,075,t,fafafa_ca443f4786,u10_processed.jpg">
 </div>
 
