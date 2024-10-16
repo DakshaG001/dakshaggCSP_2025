@@ -198,7 +198,9 @@ Variables store information, like name = "dave" in Python or let name = "dave" i
 I focused on pseudocode which is a simplified, language-agnostic way to outline a program’s logic, focusing on the steps without strict syntax. It helps plan algorithms by breaking down tasks clearly, making it easier to translate into actual code. I created a lesson on this to showcase the purpose of psuedocode, which is pretty important because collegeboard wants you to know pseudocode. 
 
 #### My teams 3.10 focused on using psueodocde, lists, list operations, and functions. We expanded on these elements and through our knowledge and understanding, presented it to the class for them to learn
-
+### Project
+On the left I have a WIP dino game, which is not quite complete yet. 
+I also have my 3.10 Team Teach part here -> https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-10-2
 # Big Idea Notes
 <a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/07/04/3_4_IPYNB_2_.html">
   <button class="button">3.1 & 3.4</button>
