@@ -123,10 +123,10 @@ permalink: /Dinoo/
 <div class="sidebar">
   <h2>Games Menu</h2>
   <ul class="menu-list">
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/snake/" target="_blank">Snake</a></li>
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/cookie/" target="_blank">Cookie Clicker</a></li>
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/calculator/" target="_blank">Calculator</a></li>
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/Dinoo/" target="_blank">WIP Dino game</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/snake/" target="_blank">Snake</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/cookie/" target="_blank">Cookie Clicker</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/calculator/" target="_blank">Calculator</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/Dinoo/" target="_blank">WIP Dino game</a></li>
   </ul>
 </div>
 

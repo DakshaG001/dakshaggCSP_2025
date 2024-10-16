@@ -190,19 +190,38 @@ permalink: /Sprint2summary/
   opacity: 1;
 }
 </style>
+
+
+
 #### My teams 3.10 focused on using psueodocde, lists, list operations, and functions. We expanded on these elements and through our knowledge and understanding, presented it to the class for them to learn
 
-
+# Big Idea Notes
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/07/04/3_4_IPYNB_2_.html">
+  <button class="button">3.1 & 3.4</button>
+  </a>
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/10/07/3_2_IPYNB_2_.html">
+  <button class="button">3.2</button>
+  </a>
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/07/09/3_3_IPYNB_2_.html">
+  <button class="button">3.3 & 3.5</button>
+  </a>
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/07/10/3_6_IPYNB_2_.html">
+  <button class="button">3.6 & 3.7</button>
+  </a>
+<a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/10/03/3_8_IPYNB_2_.html">
+  <button class="button">3.8</button>
+  </a>
+  
 # Game progress on the left <-
 - added a sidebar to showcase all games
 
 <div class="sidebar">
   <h2>Games Menu</h2>
   <ul class="menu-list">
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/snake/" target="_blank">Snake</a></li>
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/cookie/" target="_blank">Cookie Clicker</a></li>
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/calculator/" target="_blank">Calculator</a></li>
-    <li><a href="http://localhost:4100/dakshaggCSP_2025/Dinoo/" target="_blank">WIP Dino game</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/snake/" target="_blank">Snake</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/cookie/" target="_blank">Cookie Clicker</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/calculator/" target="_blank">Calculator</a></li>
+    <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/Dinoo/" target="_blank">WIP Dino game</a></li>
   </ul>
 </div>
 
@@ -257,3 +276,71 @@ permalink: /Sprint2summary/
     font-family: Arial, sans-serif;
   }
 </style>
+
+<style>
+button {
+ appearance: button;
+ background-color: #1899D6;
+ border: solid transparent;
+ border-radius: 16px;
+ border-width: 0 0 4px;
+ box-sizing: border-box;
+ color: #FFFFFF;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 15px;
+ font-weight: 700;
+ letter-spacing: .8px;
+ line-height: 20px;
+ margin: 0;
+ outline: none;
+ overflow: visible;
+ padding: 13px 19px;
+ text-align: center;
+ text-transform: uppercase;
+ touch-action: manipulation;
+ transform: translateZ(0);
+ transition: filter .2s;
+ user-select: none;
+ -webkit-user-select: none;
+ vertical-align: middle;
+ white-space: nowrap;
+}
+
+button:after {
+ background-clip: padding-box;
+ background-color: #1CB0F6;
+ border: solid transparent;
+ border-radius: 16px;
+ border-width: 0 0 4px;
+ bottom: -4px;
+ content: "";
+ left: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ z-index: -1;
+}
+
+button:main, button:focus {
+ user-select: auto;
+}
+
+button:hover:not(:disabled) {
+ filter: brightness(1.1);
+}
+
+button:disabled {
+ cursor: auto;
+}
+
+button:active:after {
+ border-width: 0 0 0px;
+}
+
+button:active {
+ padding-bottom: 10px;
+}
+</style>
+
+

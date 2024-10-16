@@ -193,6 +193,6 @@ hide: true
 <a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-10-2">
   <button class="custom-button">3.10 Pseudocode</button>
   </a>
-  <a href="http://localhost:4100/dakshaggCSP_2025/Sprint2summary/">
+  <a href="https://dakshag001.github.io/dakshaggCSP_2025/Sprint2summary/">
   <button class="custom-button">Sprint 2</button>
   </a>
