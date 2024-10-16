@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sprint 2 summary
+title: Sprint 2 
 permalink: /Sprint2summary/
 ---
 
@@ -191,7 +191,11 @@ permalink: /Sprint2summary/
 }
 </style>
 
+# Summary
+Variables store information, like name = "dave" in Python or let name = "dave" in JavaScript. Data types include integers, floats, strings, lists, tuples, dictionaries, sets, and booleans, each serving different purposes like grouping data or storing key-value pairs. Mathematical expressions perform calculations, and booleans help evaluate conditions with relational or logical operators. Control structures like if-else statements and loops (e.g., for loops) are used to manage the flow of code and handle repetitive tasks efficiently.
 
+# My contribution
+I focused on pseudocode which is a simplified, language-agnostic way to outline a program’s logic, focusing on the steps without strict syntax. It helps plan algorithms by breaking down tasks clearly, making it easier to translate into actual code. I created a lesson on this to showcase the purpose of psuedocode, which is pretty important because collegeboard wants you to know pseudocode. 
 
 #### My teams 3.10 focused on using psueodocde, lists, list operations, and functions. We expanded on these elements and through our knowledge and understanding, presented it to the class for them to learn
 
