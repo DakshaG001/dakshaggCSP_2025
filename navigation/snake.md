@@ -368,3 +368,66 @@ permalink: /snake/
         }
     })();
 </script>
+
+
+<div class="sidebar">
+  <h2>Games Menu</h2>
+  <ul class="menu-list">
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/snake/" target="_blank">Snake</a></li>
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/cookie/" target="_blank">Cookie Clicker</a></li>
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/calculator/" target="_blank">Calculator</a></li>
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/Dinoo/" target="_blank">WIP Dino game</a></li>
+  </ul>
+</div>
+
+<style>
+  /* Sidebar container styling */
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Heading style inside the sidebar */
+  .sidebar h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* Menu list styling */
+  .menu-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* Individual link items */
+  .menu-list li {
+    margin: 15px 0;
+  }
+
+  /* Link styles */
+  .menu-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  /* Hover effect for links */
+  .menu-list a:hover {
+    color: #1e90ff;
+  }
+
+  /* Adjust layout when the sidebar is active */
+  body {
+    margin-left: 220px; /* Adjust content to avoid overlap */
+    font-family: Arial, sans-serif;
+  }
+</style>

@@ -5,7 +5,7 @@ description: Home Page
 hide: true
 ---
 
-# **My journey starts here**
+# **This is my journey into coding**
 
 <img src="images/notebooks/3810370_8caf5a9703664533b3b1cf2b4e040537_processed.jpg" alt="Image" width="25%">
 
@@ -59,23 +59,6 @@ hide: true
   opacity: 1;
 }
 </style>
-<!-- coding for 3 buttons -->
-<a href="https://nighthawkcoders.github.io/portfolio_2025/navigation/section/csp">
-  <button class="custom-button">Nighthawk Pages</button>
-</a>
-<a href="https://dakshag001.github.io/dakshaggCSP_2025/blogs/">
-  <button class="custom-button">Blogs</button>
-</a>
-<a href="https://dakshag001.github.io/dakshaggCSP_2025/search/">
-  <button class="custom-button">Search</button>
-</a>
-<a href="http://localhost:4100/dakshaggCSP_2025/snake/">
-  <button class="custom-button">Snake</button>
-  </a>
-
-<!-- styling for menu -->
-
-
 
 
 
@@ -202,3 +185,14 @@ hide: true
 </div>
 <!-- end of menu code -->
 
+
+
+# Sprints and Projects
+
+
+<a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-10-2">
+  <button class="custom-button">3.10 Pseudocode</button>
+  </a>
+  <a href="http://localhost:4100/dakshaggCSP_2025/Sprint2summary/">
+  <button class="custom-button">Sprint 2</button>
+  </a>

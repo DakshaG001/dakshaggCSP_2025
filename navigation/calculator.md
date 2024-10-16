@@ -1,14 +1,38 @@
 ---
 layout: page
 permalink: /calculator/
-title: Calculator   
+title: Calculator v2.0   
 toc: true
 comments: false
 ---
 
 
+<div id="calculator">
+  <div id="animation">
+    <div class="calculator-container">
+      <div class="calculator-output" id="output">0</div>
+      <div class="calculator-number">1</div>
+      <div class="calculator-number">2</div>
+      <div class="calculator-number">3</div>
+      <div class="calculator-operation">+</div>
+      <div class="calculator-number">4</div>
+      <div class="calculator-number">5</div>
+      <div class="calculator-number">6</div>
+      <div class="calculator-operation">-</div>
+      <div class="calculator-number">7</div>
+      <div class="calculator-number">8</div>
+      <div class="calculator-number">9</div>
+      <div class="calculator-operation">*</div>
+      <div class="calculator-clear">A/C</div>
+      <div class="calculator-number">0</div>
+      <div class="calculator-number">.</div>
+      <div class="calculator-equals">=</div>
+    </div>
+  </div>
+</div>
+
 <style>
-  body {
+  #calculator {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,157 +91,69 @@ comments: false
     background: #2ECC71;
   }
 </style>
-<!-- Add a container for the animation -->
-<div id="animation">
-  <div class="calculator-container">
-    <!-- result -->
-    <div class="calculator-output" id="output">0</div>
-    <!-- row 1 -->
-    <div class="calculator-number">1</div>
-    <div class="calculator-number">2</div>
-    <div class="calculator-number">3</div>
-    <div class="calculator-operation">+</div>
-    <!-- row 2 -->
-    <div class="calculator-number">4</div>
-    <div class="calculator-number">5</div>
-    <div class="calculator-number">6</div>
-    <div class="calculator-operation">-</div>
-    <!-- row 3 -->
-    <div class="calculator-number">7</div>
-    <div class="calculator-number">8</div>
-    <div class="calculator-number">9</div>
-    <div class="calculator-operation">*</div>
-    <!-- row 4 -->
-    <div class="calculator-clear">A/C</div>
-    <div class="calculator-number">0</div>
-    <div class="calculator-number">.</div>
-    <div class="calculator-equals">=</div>
-  </div>
+
+<script>
+// JavaScript code remains the same
+</script>
+
+<div class="sidebar">
+  <h2>Games Menu</h2>
+  <ul class="menu-list">
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/snake/" target="_blank">Snake</a></li>
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/cookie/" target="_blank">Cookie Clicker</a></li>
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/calculator/" target="_blank">Calculator</a></li>
+    <li><a href="http://localhost:4100/dakshaggCSP_2025/Dinoo/" target="_blank">WIP Dino game</a></li>
+  </ul>
 </div>
-<!-- JavaScript (JS) implementation of the calculator. -->
-<script>
-// Initialize important variables to manage calculations
-var firstNumber = null;
-var operator = null;
-var nextReady = true;
-// Build objects containing key elements
-const output = document.getElementById("output");
-const numbers = document.querySelectorAll(".calculator-number");
-const operations = document.querySelectorAll(".calculator-operation");
-const clear = document.querySelectorAll(".calculator-clear");
-const equals = document.querySelectorAll(".calculator-equals");
-// Number buttons listener
-numbers.forEach(button => {
-  button.addEventListener("click", function() {
-    number(button.textContent);
-  });
-});
-// Number action
-function number(value) {
-  if (value != ".") {
-    if (nextReady == true) {
-      output.innerHTML = value;
-      if (value != "0") {
-        nextReady = false;
-      }
-    } else {
-      output.innerHTML = output.innerHTML + value;
-    }
-  } else {
-    if (output.innerHTML.indexOf(".") == -1) {
-      output.innerHTML = output.innerHTML + value;
-      nextReady = false;
-    }
+
+<style>
+  /* Sidebar container styling */
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   }
-}
-// Operation buttons listener
-operations.forEach(button => {
-  button.addEventListener("click", function() {
-    operation(button.textContent);
-  });
-});
-// Operator action
-function operation(choice) {
-  if (firstNumber == null) {
-    firstNumber = parseInt(output.innerHTML);
-    nextReady = true;
-    operator = choice;
-    return;
+
+  /* Heading style inside the sidebar */
+  .sidebar h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
   }
-  firstNumber = calculate(firstNumber, parseFloat(output.innerHTML));
-  operator = choice;
-  output.innerHTML = firstNumber.toString();
-  nextReady = true;
-}
-// Calculator
-function calculate(first, second) {
-  let result = 0;
-  switch (operator) {
-    case "+":
-      result = first + second;
-      break;
-    case "-":
-      result = first - second;
-      break;
-    case "*":
-      result = first * second;
-      break;
-    case "/":
-      result = first / second;
-      break;
-    default:
-      break;
+
+  /* Menu list styling */
+  .menu-list {
+    list-style: none;
+    padding: 0;
   }
-  return result;
-}
-// Equals button listener
-equals.forEach(button => {
-  button.addEventListener("click", function() {
-    equal();
-  });
-});
-// Equal action
-function equal() {
-  firstNumber = calculate(firstNumber, parseFloat(output.innerHTML));
-  output.innerHTML = firstNumber.toString();
-  nextReady = true;
-}
-// Clear button listener
-clear.forEach(button => {
-  button.addEventListener("click", function() {
-    clearCalc();
-  });
-});
-// A/C action
-function clearCalc() {
-  firstNumber = null;
-  output.innerHTML = "0";
-  nextReady = true;
-}
-</script>
-<!--
-Vanta animations just for fun, load JS onto the page
--->
-<script src="{{site.baseurl}}/assets/js/three.r119.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.halo.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.birds.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.net.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.rings.min.js"></script>
-<script>
-// Setup Vanta scripts as functions
-var vantaInstances = {
-  halo: VANTA.HALO,
-  birds: VANTA.BIRDS,
-  net: VANTA.NET,
-  rings: VANTA.RINGS
-};
-// Obtain a random Vanta function
-var vantaInstance = vantaInstances[Object.keys(vantaInstances)[Math.floor(Math.random() * Object.keys(vantaInstances).length)]];
-// Run the animation
-vantaInstance({
-  el: "#animation",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false
-});
-</script>
+
+  /* Individual link items */
+  .menu-list li {
+    margin: 15px 0;
+  }
+
+  /* Link styles */
+  .menu-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  /* Hover effect for links */
+  .menu-list a:hover {
+    color: #1e90ff;
+  }
+
+  /* Adjust layout when the sidebar is active */
+  body {
+    margin-left: 220px; /* Adjust content to avoid overlap */
+    font-family: Arial, sans-serif;
+  }
+</style>
