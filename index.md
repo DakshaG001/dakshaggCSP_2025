@@ -230,6 +230,9 @@ sz
   <a href="https://dakshag001.github.io/dakshaggCSP_2025/Sprint2summary/">
   <button class="custom-button">Sprint 2</button>
   </a>
+  <a href="{{site.baseurl}}/tri2/">
+  <button class="custom-button">Trimester 2 Final</button>
+  </a>
 
 <style>
 .button-container {
