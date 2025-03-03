@@ -5,6 +5,18 @@ permalink: /tri2/
 comments: true
 ---
 
+# Trimester 2 College Board Scoring Guide
+
+| Points | Category | Evidence |
+|--------|----------|----------|
+| 4.5 points | 5 Things Over 12 Weeks | 1. Backend Leaderboard Implementation (1)<br>2. Frontend Development (Competition Interface, Leaderboard, Posts) (1.0)<br>3. Admin Panel Development (1.0)<br>4. Burndown List Creation (0.5)<br>5. UI/UX Improvements (1.0) |
+| 2 points | Full Stack Demo | - Backend: User data storage, Score calculation<br>- Frontend: Interactive UI, Real-time updates<br>- N@TM Feedback (Video evidence included) |
+| 1 point | Project Feature Blog | - Used CPT terminology in documentation<br>-  technical implementation<br>- Algorithm showcase (Score calculation) |
+| 1 point | MCQ Test | Completed with reflection |
+| **Total**: 8.5 points | | |
+
+---
+
 # My 12-Week Development Journey
 
 ## 1. Backend Leaderboard Implementation
