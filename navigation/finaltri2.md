@@ -52,6 +52,12 @@ comments: true
         <li>Detailed <span class="highlight">technical implementation</span></li>
         <li><span class="highlight">Algorithm showcase</span> (Score calculation)</li>
       </ul>
+      <div class="score-link">
+        <a href="https://dakshag001.github.io/dakshaggCSP_2025/2025/01/24/sprint5blog_IPYNB_2_.html" class="button">
+          <i class="fas fa-book"></i>
+          View Project Feature Blog
+        </a>
+      </div>
     </div>
     
     <div class="score-item">
@@ -85,7 +91,6 @@ I designed the backend functionality for the leaderboard system, which includes:
     <img src="../images/notebooks/Screenshot 2025-03-02 142524.png" alt="Leaderboard Backend">
 </div>
 
-[View detailed project feature blog](https://dakshag001.github.io/dakshaggCSP_2025/2025/01/24/sprint5blog_IPYNB_2_.html)
 
 ## 2. Frontend Development
 
