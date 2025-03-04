@@ -5,269 +5,444 @@ description: Home Page
 hide: true
 ---
 
- <div class="button-container">
-  <a href="https://dakshag001.github.io/dakshaggCSP_2025/" target="_blank">
-    <button class="button33">
-      <svg xmlns="https://dakshag001.github.io/dakshaggCSP_2025/" width="1em" height="1em" viewBox="0 0 1024 1024" stroke-width="0" fill="currentColor" stroke="currentColor" class="icon">
-        <path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path>
-      </svg>
-    </button>
-  </a>
-  
-  <a href="https://dakshag001.github.io/dakshaggCSP_2025/search/" target="_blank">
-    <button class="button33">
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
-        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
-      </svg>
-    </button>
-  </a>
-  
-  <a href="https://dakshag001.github.io/dakshaggCSP_2025/about/" target="_blank">
-    <button class="button33">
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="0" fill="currentColor" stroke="currentColor" class="icon">
-        <path d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"></path>
-      </svg>
-    </button>
-  </a>
-  
-  <a href="https://dakshag001.github.io/dakshaggCSP_2025/blogs/" target="_blank">
-    <button class="button33">
-     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" class="icon">
-    <path d="M3 2C2.44772 2 2 2.44772 2 3V21C2 21.5523 2.44772 22 3 22H21C21.5523 22 22 21.5523 22 21V3C22 2.44772 21.5523 2 21 2H3ZM12 19L5 15H7V10H17V15H19L12 19ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"></path>
-    </svg>
-  </button>
-  </a>
-</div>
-sz
-# **This is my journey into coding**
+<div class="snowflake-container"></div>
 
-<img src="images/notebooks/3810370_8caf5a9703664533b3b1cf2b4e040537_processed.jpg" alt="Image" width="25%">
-
-<style>
-.custom-button {
-  min-width: 120px;
-
-  position: relative;
-  cursor: pointer;
-
-  padding: 12px 17px;
-  border: 0;
-  border-radius: 7px;
-
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-  background: radial-gradient(
-    ellipse at bottom,
-    rgba(71, 81, 92, 1) 0%,
-    rgba(11, 21, 30, 1) 45%
-  );
-
-  color: rgba(255, 255, 255, 0.66);
-
-  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
-}
-.custom-button::before {
-  content: "";
-  width: 70%;
-  height: 1px;
-
-  position: absolute;
-  bottom: 0;
-  left: 15%;
-
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  opacity: 0.2;
-
-  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
-}
-.custom-button:hover {
-  color: rgba(255, 255, 255, 1);
-  transform: scale(1.1) translateY(-3px);
-}
-.custom-button:hover::before {
-  opacity: 1;
-}
-</style>
-
-
-
-<style>
-   .paste-button {
-    position: relative;
-    display: block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.paste-button .button {
-    padding: 1.3em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.paste-button .button:hover {
-    background-color: #23c483;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-}
-
-.paste-button .button:active {
-    transform: translateY(-1px);
-}
-
-.dropdown-content, .submenu-content {
-    display: none;
-    font-size: 13px;
-    position: absolute;
-    z-index: 1;
-    min-width: 200px;
-    background-color: #212121;
-    border: 2px solid #88bc4c;
-    border-radius: 0px 15px 15px 15px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a, .submenu-content a {
-    color: #88bc4c;
-    padding: 8px 10px;
-    text-decoration: none;
-    display: block;
-    transition: 0.1s;
-}
-
-.dropdown-content a:hover, .submenu-content a:hover {
-    background-color: #88bc4c;
-    color: #212121;
-}
-
-.dropdown-content a:focus, .submenu-content a:focus {
-    background-color: #212121;
-    color: #88bc4c;
-}
-
-.dropdown-content #top:hover {
-    border-radius: 0px 13px 0px 0px;
-}
-
-.dropdown-content #bottom:hover {
-    border-radius: 0px 0px 13px 13px;
-}
-
-.paste-button:hover .button {
-    border-radius: 15px 15px 0px 0px;
-}
-
-.paste-button:hover .dropdown-content {
-    display: block;
-}
-
-.submenu {
-    position: relative;
-}
-
-.submenu-content {
-    top: 0;
-    left: 100%;
-    border-radius: 0 15px 15px 15px;
-}
-
-.submenu-content a:first-child:hover {
-    border-radius: 0px 13px 0px 0px;
-}
-
-.submenu-content a:last-child:hover {
-    border-radius: 0px 0px 13px 13px;
-}
-
-.submenu:hover .submenu-content {
-    display: block;
-}
-
-</style>
-<!-- code for menu -->
-<div class="paste-button">
-  <button class="button">Menu &nbsp; ▼</button>
-  <div class="dropdown-content">
-    <a id="top" href="https://dakshag001.github.io/dakshaggCSP_2025/2024/09/08/JavaScriptCell_IPYNB_2_.html">JavaScript Cell</a>
-    <div class="submenu">
-        <a id="middle" href="https://dakshag001.github.io/dakshaggCSP_2025/2024/08/21/sprint1_plan_IPYNB_2_.html">Plans &nbsp; ▶</a>
-        <div class="submenu-content">
-            <a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/09/12/PlanningFolder_IPYNB_2_.html">Attempts</a>
-            <a href="https://example.com/">Finalized Project stuff</a>
-        </div>
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="main-title">Daksha's Coding Journey</h1>
+    <p class="subtitle">Exploring the world of computer science one project at a time</p>
+    
+    <div class="nav-buttons">
+      <a href="https://dakshag001.github.io/dakshaggCSP_2025/" class="nav-button">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="https://dakshag001.github.io/dakshaggCSP_2025/search/" class="nav-button">
+        <i class="fas fa-search"></i>
+        <span>Search</span>
+      </a>
+      <a href="https://dakshag001.github.io/dakshaggCSP_2025/about/" class="nav-button">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a>
+      <a href="https://dakshag001.github.io/dakshaggCSP_2025/blogs/" class="nav-button">
+        <i class="fas fa-blog"></i>
+        <span>Blog</span>
+      </a>
     </div>
-    <a id="bottom" href="https://dakshag001.github.io/dakshaggCSP_2025/about/">About Pages</a>
   </div>
 </div>
-<!-- end of menu code -->
 
+<div class="profile-section">
+  <div class="profile-image">
+    <img src="images/notebooks/3810370_8caf5a9703664533b3b1cf2b4e040537_processed.jpg" alt="Profile Image">
+  </div>
+  <div class="profile-info">
+    <h2>Featured Projects</h2>
+    <div class="project-buttons">
+      <a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-10-2" class="project-button">
+        <span class="project-name">3.10 Pseudocode</span>
+        <span class="project-desc">College Board Topics</span>
+      </a>
+      <a href="https://dakshag001.github.io/dakshaggCSP_2025/Sprint2summary/" class="project-button">
+        <span class="project-name">Sprint 2</span>
+        <span class="project-desc">Project Highlights</span>
+      </a>
+      <a href="{{site.baseurl}}/tri2/" class="project-button">
+        <span class="project-name">Trimester 2 Final</span>
+        <span class="project-desc">Final Showcase</span>
+      </a>
+    </div>
+  </div>
+</div>
 
+<div class="menu-section">
+  <h2>Project Navigator</h2>
+  <div class="menu-grid">
+    <a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/09/08/JavaScriptCell_IPYNB_2_.html" class="menu-card">
+      <i class="fab fa-js"></i>
+      <span>JavaScript Cell</span>
+    </a>
+    <a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/08/21/sprint1_plan_IPYNB_2_.html" class="menu-card">
+      <i class="fas fa-tasks"></i>
+      <span>Sprint Plans</span>
+    </a>
+    <a href="https://dakshag001.github.io/dakshaggCSP_2025/2024/09/12/PlanningFolder_IPYNB_2_.html" class="menu-card">
+      <i class="fas fa-clipboard-list"></i>
+      <span>Project Attempts</span>
+    </a>
+    <a href="https://example.com/" class="menu-card">
+      <i class="fas fa-code"></i>
+      <span>Finalized Projects</span>
+    </a>
+  </div>
+</div>
 
-# Sprints and Projects
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const snowflakeContainer = document.querySelector('.snowflake-container');
+  const snowflakeCount = 100;
 
+  // Create snowflakes
+  for (let i = 0; i < snowflakeCount; i++) {
+    createSnowflake();
+  }
 
-<a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-10-2">
-  <button class="custom-button">3.10 Pseudocode</button>
-  </a>
-  <a href="https://dakshag001.github.io/dakshaggCSP_2025/Sprint2summary/">
-  <button class="custom-button">Sprint 2</button>
-  </a>
-  <a href="{{site.baseurl}}/tri2/">
-  <button class="custom-button">Trimester 2 Final</button>
-  </a>
+  function createSnowflake() {
+    const snowflake = document.createElement('div');
+    snowflake.classList.add('snowflake');
+    
+    // Random properties
+    const size = Math.random() * 5 + 2;
+    const left = Math.random() * 100;
+    const animationDuration = Math.random() * 10 + 5;
+    const opacity = Math.random() * 0.7 + 0.3;
+    
+    snowflake.style.width = `${size}px`;
+    snowflake.style.height = `${size}px`;
+    snowflake.style.left = `${left}%`;
+    snowflake.style.animationDuration = `${animationDuration}s`;
+    snowflake.style.opacity = opacity;
+    
+    snowflakeContainer.appendChild(snowflake);
+    
+    // Remove snowflake after it falls
+    setTimeout(() => {
+      snowflake.remove();
+      createSnowflake();
+    }, animationDuration * 1000);
+  }
+});
+</script>
 
 <style>
-.button-container {
-  display: flex;
-  background-color: rgba(245, 73, 144);
-  width: 250px;
-  height: 40px;
-  align-items: center;
-  justify-content: space-around;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
-        rgba(245, 73, 144, 0.5) 5px 10px 15px;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  color: #eee;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-.button33 {
-  outline: 0 !important;
-  border: 0 !important;
-  width: 40px;
-  height: 40px;
+/* Snowflakes */
+.snowflake-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  background-color: #fff;
   border-radius: 50%;
-  background-color: transparent;
+  opacity: 0.7;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+.hero-section {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
   color: #fff;
-  transition: all ease-in-out 0.3s;
-  cursor: pointer;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
-.button:hover {
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(50, 50, 70, 0.4) 0%, rgba(10, 10, 10, 0.9) 100%);
+  z-index: -1;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.main-title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(79, 172, 254, 0.3);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #bbb;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-button:hover {
+  background-color: rgba(79, 172, 254, 0.7);
   transform: translateY(-3px);
+  box-shadow: 0 7px 15px rgba(79, 172, 254, 0.3);
 }
 
-.icon {
-  font-size: 20px;
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: rgba(15, 15, 20, 0.7);
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .profile-section {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+
+.profile-image {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    margin-bottom: 0;
+  }
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid #4facfe;
+  box-shadow: 0 0 20px rgba(79, 172, 254, 0.5);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.profile-image img:hover {
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 0 30px rgba(79, 172, 254, 0.8);
+}
+
+.profile-info {
+  max-width: 600px;
+}
+
+.profile-info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #4facfe;
+  position: relative;
+}
+
+.profile-info h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 2px;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-button {
+  display: block;
+  padding: 1.2rem 1.5rem;
+  background-color: rgba(30, 30, 40, 0.7);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #eee;
+  transition: all 0.3s ease;
+  border-left: 4px solid #4facfe;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-button:hover {
+  transform: translateX(8px);
+  background-color: rgba(79, 172, 254, 0.2);
+  border-left: 4px solid #00f2fe;
+}
+
+.project-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.menu-section {
+  padding: 4rem 2rem;
+  background-color: rgba(10, 10, 10, 0.8);
+  position: relative;
+  z-index: 2;
+}
+
+.menu-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #4facfe;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 2px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(30, 30, 40, 0.7);
+  border-radius: 15px;
+  text-decoration: none;
+  color: #eee;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.menu-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  color: #fff;
+  box-shadow: 0 15px 30px rgba(79, 172, 254, 0.3);
+}
+
+.menu-card:hover::before {
+  opacity: 0.2;
+}
+
+.menu-card i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4facfe;
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover i {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.menu-card span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content {
+    padding: 1.5rem;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .menu-section h2, .profile-info h2 {
+    font-size: 1.8rem;
+  }
 }
 </style>
 
