@@ -169,6 +169,15 @@ Conducted peer reviews and interviews with other project groups
     </iframe>
 </div>
 
+<div class="showcase-grid">
+    <div class="showcase-image">
+        <img src="https://i.ibb.co/Zz5bzf4V/IMG-4992.jpg" alt="N@TM Showcase 1">
+    </div>
+    <div class="showcase-image">
+        <img src="https://i.ibb.co/Y7hHnL9G/IMG-5605.jpg" alt="N@TM Showcase 2">
+    </div>
+</div>
+
 <style>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
