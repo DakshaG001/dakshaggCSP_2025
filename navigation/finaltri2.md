@@ -76,7 +76,7 @@ comments: true
   
   <div class="total-score">
     <span class="total-label">Total Score:</span>
-    <span class="total-points">8.5 points</span>
+    <span class="total-points">9.5 points</span>
   </div>
 </div>
 
