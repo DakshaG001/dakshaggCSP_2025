@@ -181,56 +181,63 @@ hr {
 
   <hr>
 
-  <h2 id="create-performance-task-cpt">🧪 Create Performance Task (CPT)</h2>
-
+  <h2>4.1-4.3: The Internet & Computing Models</h2>
+  
   <div class="study-card">
-    <h3 id="general-requirements">General Requirements</h3>
+    <h3>4.1: The Internet Fundamentals</h3>
     <ul>
-      <li>Minimum of 9 hours of class time allocated.</li>
-      <li>Students may collaborate on program development but must complete the video and Personalized Project Reference individually.</li>
+      <li><strong>Computing Devices & Systems</strong>: A computing device is a physical artifact that can run a program (computers, tablets, servers, routers)</li>
+      <li><strong>Computer Networks</strong>: Interconnected computing devices capable of sending/receiving data</li>
+      <li><strong>Routing</strong>: Finding a path from sender to receiver through a sequence of connected devices</li>
+      <li><strong>Bandwidth</strong>: Maximum data sent in fixed time (measured in bits per second)</li>
+      <li><strong>Internet Protocols</strong>: Standardized, open (nonproprietary) communication rules</li>
+      <li><strong>Scalability</strong>: The Internet was designed to change in size and scale to meet new demands</li>
+    </ul>
+  </div>
+  
+  <div class="study-card">
+    <h3>4.2: Fault Tolerance</h3>
+    <ul>
+      <li><strong>Fault Tolerance</strong>: Enables a system to continue functioning despite failures in components</li>
+      <li><strong>Redundancy</strong>: Including extra components to mitigate failure</li>
+      <li><strong>Network Redundancy</strong>: Having multiple paths between connected devices</li>
+      <li><strong>Routing Adaptability</strong>: If a path fails, data can be sent via different routes</li>
+      <li><strong>Benefits</strong>: Continued operation during unexpected failures, ability to scale to more devices/users</li>
+      <li><strong>Challenges</strong>: Requires additional resources to implement redundancy</li>
+    </ul>
+  </div>
+  
+  <div class="study-card">
+    <h3>4.3: Computing Models & Efficiency</h3>
+    <ul>
+      <li><strong>Sequential Computing</strong>: Operations performed one at a time in order</li>
+      <li><strong>Parallel Computing</strong>:
+        <ul>
+          <li>Program broken into smaller operations performed simultaneously</li>
+          <li>Contains both parallel and sequential portions</li>
+          <li>More scalable than sequential computing</li>
+          <li>Limited by sequential portion (Amdahl's Law)</li>
+        </ul>
+      </li>
+      <li><strong>Distributed Computing</strong>:
+        <ul>
+          <li>Uses multiple devices to run a program</li>
+          <li>Solves problems too large for single computers</li>
+          <li>Allows larger problems to be solved more quickly</li>
+        </ul>
+      </li>
+      <li><strong>Efficiency Calculations</strong>:
+        <ul>
+          <li>Sequential: Total time = sum of all steps</li>
+          <li>Parallel: Total time = sequential tasks + longest parallel task</li>
+          <li>Speedup = (Sequential time) / (Parallel time)</li>
+        </ul>
+      </li>
     </ul>
   </div>
 
-  <div class="study-card">
-    <h3 id="submission-components">Submission Components</h3>
-    <ol>
-      <li>
-        <strong>Program Code</strong>:
-        <ul>
-          <li>PDF file containing all program code with comments.</li>
-          <li>Must include:
-            <ul>
-              <li>Instructions for input (user, device, online data stream, or file).</li>
-              <li>Use of at least one list (or other collection type) to manage program complexity.</li>
-              <li>At least one student-developed procedure with:
-                <ul>
-                  <li>Procedure name.</li>
-                  <li>Return type (if necessary).</li>
-                  <li>One or more parameters.</li>
-                </ul>
-              </li>
-              <li>An algorithm within the procedure that includes sequencing, selection, and iteration.</li>
-              <li>Calls to the student-developed procedure.</li>
-              <li>Instructions for output based on input and program functionality.</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <strong>Video</strong>:
-        <ul>
-          <li>Demonstrates the running of the program and its functionality.</li>
-          <li>Created independently by the student.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Personalized Project Reference</strong>:
-        <ul>
-          <li>Includes code segments and written responses.</li>
-          <li>Completed individually without collaboration.</li>
-        </ul>
-      </li>
-    </ol>
-  </div>
+  <a href="https://dakshag001.github.io/dakshaggCSP_2025/study/" class="study-card">
+    <h3 style="text-align: center;">📚 Access Full Study Guide</h3>
+  </a>
 </div>
 
