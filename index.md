@@ -71,9 +71,9 @@ hide: true
       <i class="fas fa-clipboard-list"></i>
       <span>Project Attempts</span>
     </a>
-    <a href="https://example.com/" class="menu-card">
-      <i class="fas fa-code"></i>
-      <span>Finalized Projects</span>
+    <a href="https://dakshag001.github.io/dakshaggCSP_2025/study/" class="menu-card">
+      <i class="fas fa-book"></i>
+      <span>Study Materials</span>
     </a>
   </div>
 </div>
@@ -423,7 +423,6 @@ body {
 .menu-card span {
   font-size: 1.2rem;
   font-weight: 500;
-}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
