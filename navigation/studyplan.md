@@ -126,6 +126,7 @@ hr {
       <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/seventh_IPYNB_2_.html">Graphs & Heuristics</a></li>
       <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/eigth_IPYNB_2_.html">Logic Gates</a></li>
       <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/ninth_IPYNB_2_.html">Images & Encoding Study</a></li>
+      <li><a href="https://dakshag001.github.io/dakshaggCSP_2025/2025/01/24/sprint5blog_IPYNB_2_.html">Sprint 5 Blog & Review</a></li>
     </ul>
   </div>
 
