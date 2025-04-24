@@ -20,3 +20,6 @@ permalink: /study/
 * [Legal and Ethical Team Teach](https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/fourth_IPYNB_2_.html)
 * [Python Lists and Filtering Algorithms](https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/fifth_IPYNB_2_.html)
 * [Random Algorithms & Simulations](https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/sixth_IPYNB_2_.html)
+* [Graphs & Heuristics](https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/seventh_IPYNB_2_.html)
+* [Logic Gates](https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/eigth_IPYNB_2_.html)
+* [Images & Encoding Study](https://dakshag001.github.io/dakshaggCSP_2025/2025/04/04/ninth_IPYNB_2_.html)

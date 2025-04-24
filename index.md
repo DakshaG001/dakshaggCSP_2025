@@ -52,6 +52,10 @@ hide: true
         <span class="project-name">Trimester 2 Final</span>
         <span class="project-desc">Final Showcase</span>
       </a>
+      <a href="https://dakshag001.github.io/dakshaggCSP_2025/study/" class="project-button">
+        <span class="project-name">AP CSP Study Materials</span>
+        <span class="project-desc">Review Notes & Resources</span>
+      </a>
     </div>
   </div>
 </div>
@@ -423,6 +427,7 @@ body {
 .menu-card span {
   font-size: 1.2rem;
   font-weight: 500;
+} /* Add this closing brace */
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
