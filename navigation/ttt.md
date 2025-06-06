@@ -46,7 +46,7 @@ permalink: /vcard
     <div class="bg-white rounded-2xl border border-gray-200 shadow-lg p-6 flex flex-col items-center justify-center space-y-6">
       <h2 class="text-xl font-semibold text-gray-800 text-center">Quick Connect</h2>
       <div class="text-center">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://dakshag001.github.io/vcard" alt="QR for this page" class="rounded-lg shadow border border-gray-200" />
+        <img src="https://i.postimg.cc/yYTJD1Vs/Screenshot-2025-06-05-193225.png" alt="QR for this page" class="rounded-lg shadow border border-gray-200" />
         <p class="text-sm text-gray-500 mt-2">This Page</p>
       </div>
       <div class="text-center">
