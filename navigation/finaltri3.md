@@ -26,7 +26,24 @@ comments: true
 LinkedIn: [here](https://www.linkedin.com/in/daksha-gowda-03115035b)
 
 
-My favorite project has to be Medipulse. Working on Medipulse felt like a challenge, and that was a good thing, because it meant I was learning. I got to build features that had real-life purpose and could actually help people, which made the whole experience feel even more meaningful. What makes it even more special is that it helped me land an internship through PilotCity, which really showed me the value of the work I put in. And I’m not even done with the project as I am  continuing it with PilotCity. It’s like there’s always more to improve, always another step forward. You’re never really done, and that’s the exciting part.
+- **Favorite Project**: Medipulse
+
+- **Challenging Experience**:
+  - Pushed me to learn and grow
+  - Challenges made the process rewarding
+
+- **Real-Life Impact**:
+  - Built features with practical, meaningful applications
+  - Felt fulfilling to create something that could help others
+
+- **Professional Outcome**:
+  - Helped me land an internship through PilotCity
+  - Showed me the value of my work and effort
+
+- **Ongoing Development**:
+  - Still continuing the project with PilotCity
+  - Always room for improvement and new goals
+  - The journey of building and refining never really ends — and that’s what makes it exciting
 
 Past Projects:
 
@@ -40,7 +57,20 @@ Past Projects:
 
 Unique Qualities Learned:
 
-Throughout these projects, I developed several unique qualities that helped me grow both technically and as a team member. I learned how to combine multiple APIs to build more complex applications and significantly improved my UI design skills. I started with creating simple projects, moved on to building interactive games, and eventually developed a feature that integrated machine learning and AI to solve real-world problems. My roles evolved as well. In the first project, I contributed as a developer, learning the basics of collaboration and coding. In the second project, I stepped up as a project lead and Scrum Master, keeping the team organized and focused on our goals. By the third project, I was fully involved in all aspects from planning to development and worked closely with my teammates to create a truly useful product.
+- **Personal and Technical Growth**:
+  - Developed unique qualities that supported both technical and team-based growth
+  - Learned to combine multiple APIs to build complex applications
+  - Improved UI design skills significantly
+
+- **Progression of Projects**:
+  - Began with creating simple projects
+  - Advanced to building interactive games
+  - Eventually developed a feature using machine learning and AI to address real-world problems
+
+- **Evolving Roles**:
+  - **First project**: Contributed as a developer, learning collaboration and foundational coding skills
+  - **Second project**: Took on the role of project lead and Scrum Master, ensuring team organization and goal alignment
+  - **Third project**: Fully involved in all stages — from planning to development — collaborating closely with teammates to build a meaningful and useful product
 
 ## Issues, Prs, Commits: [link](https://pages.opencodingsociety.com/login)
 
