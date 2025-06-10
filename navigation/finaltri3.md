@@ -98,6 +98,12 @@ comments: true
 
 ---
 
+## Final Project Showcase: MediPulse
+
+![MediPulse Project](https://i.postimg.cc/TpxvF9xZ/medipulse.jpg)
+
+---
+
 ## Night at the Museum
 
 ![N@tm Presentation](https://i.postimg.cc/g2YD864Z/image.png)
